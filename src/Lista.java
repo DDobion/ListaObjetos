@@ -7,7 +7,7 @@ class Video {
     String url;
     boolean activo;
 
-    // Constructor
+    
     public Video(String titulo, String autor, String url, boolean activo) {
         this.titulo = titulo;
         this.autor = autor;
@@ -15,7 +15,7 @@ class Video {
         this.activo = activo;
     }
 
-    // Método para representar el objeto como String
+
     @Override
     public String toString() {
         return "Titulo: " + titulo + ", Autor: " + autor + ", URL: " + url + ", Activo: " + (activo ? "Si" : "No");
